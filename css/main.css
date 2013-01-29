@@ -1,0 +1,259 @@
+/* begin overall style */
+body
+{
+	margin: 0;
+	padding: 0;
+	background: white;
+	color: #444;
+	font: normal 9pt Arial,Helvetica,sans-serif;
+	background: #FFFFFF;
+	/*background:white url(bg.gif) repeat-x left top;*/
+}
+
+#page
+{
+	width: 100%;
+	margin: 0px;
+	padding: 0;	
+	height:100%;
+	background:#FFFFFF;
+	
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	background:#085478;
+}
+#welcome{
+	color:#9FC4D2;
+}
+#Login a{
+	float:right;
+	padding:10px;
+	color:#9FC4D2;
+	text-decoration:none;
+	background:url(../images/login.gif) no-repeat;
+	padding-left:36px;
+}
+#logo
+{
+	
+	padding: 20px 0 20px 10px;
+	font-size: 200%;
+	background: url(../images/DBSKKV.png) no-repeat;
+	height: 55px;
+	float:left;
+	width:1105px;
+	margin-top:5px;
+}
+
+#mainmenu
+{
+	background: none;
+	width:100%;
+	height:27px;
+}
+
+#content
+{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+	height: 680px;
+
+}
+
+.footer
+{
+	padding: 0px;
+	margin: 0px;
+	font-size: 0.8em;
+	text-align: center;
+	position:relative;
+	bottom:0px;
+	width:100%;
+	color:#FFC;
+	
+}
+.footer a{
+	text-decoration:none;
+	color:#CFC;
+}
+/* end of overall style */
+
+/* begin data grid style */
+table.dataGrid
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.dataGrid th, table.dataGrid td
+{
+	font-size: 0.9em;
+	border: 1px #B5D8EB solid;
+	padding: 0.5em 0.3em 0.2em;
+	
+}
+
+table.dataGrid th
+{
+	background-color: #c7dff4;
+	text-align: center;
+	color:#006D9A;
+	font-weight:normal;
+}
+table.dataGrid th a, td a
+{
+	text-align: center;
+	color:#006D9A;
+}
+table.dataGrid th.label
+{
+	width: 150px;
+}
+
+table.dataGrid tr.odd
+{
+	background: #cbd2df;
+}
+/* end of data grid style */
+
+.actionBar
+{
+	margin: 10px;
+}
+
+div.item
+{
+	margin: 10px 0 0 0;
+	border: 1px solid silver;
+	padding: 5px;
+}
+.delivered td{
+	background-color:#FF0;
+}
+#content h2, h1{
+	padding: 0px;
+	margin:30px 0;
+}
+.button input, .buttons input{
+	border-style:none;
+	background:url(../images/button-bg.jpg) repeat-x;
+	width:99px;
+	height:30px;
+	color:#FFF;
+	font-size: 16px;
+	font-weight:bold;
+	font-family:Arial,Helvetica,sans-serif;
+	margin-top : 10px;
+}
+.content{
+		margin: 0px;
+}
+.content:first-letter { 
+	font-size: 300%; 
+	float: left;
+
+}
+#header_left_top{
+	background:url(../images/left_top.png) no-repeat bottom;
+	float:left;
+	height:25px;
+	width:24px;
+}
+#header_right_top{
+	background:url(../images/right_top.png) no-repeat;
+	float:left;
+	height:25px;
+	width:24px;
+}
+#header_top{
+	background:url(../images/top_border.png) repeat-x;
+	float:left;
+	height:25px;
+	width:95%;
+	background-color:#94c5e3;
+}
+#left_border{
+	background:url(../images/left_border.png) repeat-y;
+	float:left;
+	width:95%;
+	height:100%;
+	background-color:#94c5e3;
+}
+
+#right_border{
+	background:url(../images/right_border.png) repeat-y right;
+	float:left;
+	width:26px;
+	height:100%;
+	background-color:#94c5e3;
+	padding:2px;
+	margin-top:0px;
+}
+#content_center{
+	float:left;
+	width:93%;
+	height:100%;
+	background-color:#94c5e3;
+	padding:2px;
+}
+#footer_left_bottom{
+	background:url(../images/left_bottom.png) no-repeat bottom;
+	float:left;
+	height:25px;
+	width:24px;
+}
+#footer_right_bottom{
+	background:url(../images/right_bottom.png) no-repeat;
+	float:left;
+	height:25px;
+	width:24px;
+}
+#footer_bottom{
+	background:url(../images/bottom_border.png) repeat-x bottom;
+	float:left;
+	height:25px;
+	width:750px;
+	background-color:#94c5e3;
+}
+#widgetContainer{
+	border: solid 1px #B5D8EB;
+	float:left;
+	margin:20px 10px 10px 20px;
+}
+#widgetContainer h1,h2{
+	margin:0px;
+	background:url(../images/gripper-inactive.png) no-repeat 5px 5px;
+	padding-left:20px;
+	font-family:arial,helvetica,sans-serif;
+	font-size:18px;
+	color:#52819f;
+	height:25px;
+	padding-top:2px;
+	background-color:#d4e3f5;
+}
+.pager{
+	bottom:0px;
+	margin:5px;
+}
+.datagridcontainer{
+	margin:5px;
+}
+div.form {
+	padding:10px;
+}
+.grid-view{
+	padding:5px;
+}
+.grid-view table.items td.rupee{
+	background:url(../images/rupee.gif) no-repeat 5px 5px;
+	padding-left:15px;
+	
+}

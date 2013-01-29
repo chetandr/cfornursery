@@ -1,0 +1,6 @@
+select p.id,p.common_name ,sum(d.quantity) damaged, sum(st.stock) stock,sum(b.quantity) as booked,sum(sl.quantity) as sold from plants p 
+LEFT JOIN plants_damaged d on p.id=d.plant_id
+LEFT JOIN plants_stock st on st.plant_id = p.id
+LEFT JOIN plants_booked b on b.plant_id = p.id
+LEFT JOIN sales sl on sl.plant_id = p.id group by p.id
+
